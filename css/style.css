@@ -28,6 +28,7 @@ nav {
   position: fixed;
   width: 420px;
 }
+
 .arrow {
   display: inline-block;
   width: 5%;
@@ -38,6 +39,34 @@ nav {
   width: 90%;
   padding: 5px;
 
+}
+
+.bus-line {
+  background-color: white;
+}
+
+.bus-info {
+  color: black;
+  height: 17px;
+  display: inline-block;
+  font-size: 12px;
+}
+
+.bus-number {
+  width: 10%;
+}
+
+.bus-frequency {
+  font-size: 7px;
+  color: #F2994A;
+}
+
+.bus-name {
+  width: 65%;
+}
+
+.bus-arrival {
+  width: 15%;
 }
 
 .restaraunt-list {
