@@ -21,6 +21,8 @@ button:focus {
   margin: 0 auto;
   width: 100%;
   font-size: 1em;
+  height: 700px;
+  overflow-y: scroll;
 }
 
 .nearest-stop h1 {
@@ -136,6 +138,7 @@ button:focus {
   background-image: url(../images/navbar.png);
   height:49px;
   background-size: cover;
+  position: static;
 }
 
 
