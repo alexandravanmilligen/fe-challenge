@@ -22,7 +22,7 @@ button:focus {
   width: 100%;
   font-size: 1em;
   height: 700px;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 
 .nearest-stop h1 {
@@ -65,8 +65,19 @@ button:focus {
   text-align: center;
   height: 250px;
   position: relative;
-  background-image: url(../images/bus.jpeg);;
+  background-image: url(../images/bus.jpeg);
 }
+
+.status-bar {
+  text-align: left;
+}
+
+.status-bar button {
+  display: inline;
+  width: auto;
+}
+
+
 
 .nearest-stop {
   color: white;
@@ -135,11 +146,15 @@ button:focus {
 }
 
 .nav-bar {
-  background-image: url(../images/navbar.png);
-  height:49px;
-  background-size: cover;
+  background-image: url(../images/header.png);
+  height: 86px;
   position: static;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 100;
 }
+
+
 
 
 
